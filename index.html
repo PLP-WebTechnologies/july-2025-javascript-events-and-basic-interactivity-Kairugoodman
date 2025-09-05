@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width ,initial-scale = 1.0">
+        <title>Interactive web page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>    My Responsive Web page</h1>
+        <section>
+        <form id="signupForm">
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br><br>
+
+            <label>Email</label>
+            <input type="text" id="email" placeholder="Enter your email adress">
+            <br><br>
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="enter your password">
+            <button type="button" id="tooglePwd">Show</button>
+            <br><br>
+
+            <button type="submit" id="SubmitBtn">Submit</button>
+        </form>
+        <p id="formMsg"></p>
+        </section>
+    </body>
+    <!-- ===== Interactive demo 1: Modal ===== -->
+  <section>
+    <h2>Modal Example</h2>
+    <button id="openModal">Open Modal</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <p>Hello! This is a modal popup </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Interactive demo 2: Button Hover Effect ===== -->
+  <section>
+    <h2>Button Hover Effect</h2>
+    <button id="hoverBtn">Hover over me!</button>
+  </section>
+
+  <script src="script.js"></script>
+</html>
